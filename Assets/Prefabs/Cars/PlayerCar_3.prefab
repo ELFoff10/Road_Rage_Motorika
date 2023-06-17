@@ -10207,7 +10207,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _driftFactor: 0.95
   _accelerationFactor: 5
-  _turnFactor: 0.5
+  _turnFactor: 1.5
   _maxSpeed: 7
   _isEndlessMap: 0
   _sfx: {fileID: 8033804166915518642}
