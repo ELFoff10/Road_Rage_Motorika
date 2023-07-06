@@ -892,6 +892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: PositionHandler
       objectReference: {fileID: 0}
+    - target: {fileID: 6911566924455771773, guid: ec29060c5a4e73f4e8b6f96e0b35760c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ec29060c5a4e73f4e8b6f96e0b35760c, type: 3}
 --- !u!1 &378936032
@@ -1768,6 +1772,10 @@ PrefabInstance:
     - target: {fileID: 888311884706045501, guid: dc98d8d67d6e4d0479eb047f668d17b2, type: 3}
       propertyPath: m_Name
       value: SpawnPoints
+      objectReference: {fileID: 0}
+    - target: {fileID: 888311884706045501, guid: dc98d8d67d6e4d0479eb047f668d17b2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2352260166813407598, guid: dc98d8d67d6e4d0479eb047f668d17b2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5375,6 +5383,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 9091933497956744959, guid: e378c488832235245be766f685a672d6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e378c488832235245be766f685a672d6, type: 3}
 --- !u!114 &553445143423516454 stripped
@@ -5395,13 +5407,49 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1013397317455027861, guid: f7c1fbb0656c6e94ba13325feec9e00d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1013397317455027861, guid: f7c1fbb0656c6e94ba13325feec9e00d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1013397317455027861, guid: f7c1fbb0656c6e94ba13325feec9e00d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1013397317455027861, guid: f7c1fbb0656c6e94ba13325feec9e00d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1668035133542453983, guid: f7c1fbb0656c6e94ba13325feec9e00d, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3239785175135086596, guid: f7c1fbb0656c6e94ba13325feec9e00d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3239785175135086596, guid: f7c1fbb0656c6e94ba13325feec9e00d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3239785175135086596, guid: f7c1fbb0656c6e94ba13325feec9e00d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3239785175135086596, guid: f7c1fbb0656c6e94ba13325feec9e00d, type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6912991719067154298, guid: f7c1fbb0656c6e94ba13325feec9e00d, type: 3}
       propertyPath: m_Name
       value: Canvas - In game
+      objectReference: {fileID: 0}
+    - target: {fileID: 6912991719067154298, guid: f7c1fbb0656c6e94ba13325feec9e00d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6912991719067154302, guid: f7c1fbb0656c6e94ba13325feec9e00d, type: 3}
       propertyPath: m_Pivot.x
@@ -5544,6 +5592,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CheckPoints
       objectReference: {fileID: 0}
+    - target: {fileID: 1502172237200079943, guid: 1eca654c31dc2cb418497fc9679b48b6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1eca654c31dc2cb418497fc9679b48b6, type: 3}
 --- !u!1001 &7317259216097039478
@@ -5600,6 +5652,10 @@ PrefabInstance:
     - target: {fileID: 7317259216758947529, guid: 3b148e7656451ff4a8a8b4caa2ae8613, type: 3}
       propertyPath: m_Name
       value: AIPaths
+      objectReference: {fileID: 0}
+    - target: {fileID: 7317259216758947529, guid: 3b148e7656451ff4a8a8b4caa2ae8613, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3b148e7656451ff4a8a8b4caa2ae8613, type: 3}

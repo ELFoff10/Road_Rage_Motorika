@@ -430,10 +430,10 @@ GameObject:
   - component: {fileID: 6115639297621940792}
   - component: {fileID: 6115639297621940790}
   - component: {fileID: 6115639297621940793}
-  - component: {fileID: 6115639299551300797}
   - component: {fileID: 6115639299551300796}
   - component: {fileID: 5509898654771818874}
   - component: {fileID: -7603855234839281622}
+  - component: {fileID: 2691347268029352521}
   m_Layer: 0
   m_Name: PlayerCar_1
   m_TagString: Player
@@ -510,21 +510,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsUIInput: 0
---- !u!114 &6115639299551300797
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6115639297621940794}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3788be32ae4bf63419da31e9b8748970, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _tiresScreechingAudioSource: {fileID: 6092175667191593935}
-  _engineAudioSource: {fileID: 6092175666790523821}
-  _carHitAudioSource: {fileID: 6092175666743013686}
 --- !u!114 &6115639299551300796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -562,6 +547,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f3127248dfc12c4a906a7d9867d0e44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2691347268029352521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6115639297621940794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3788be32ae4bf63419da31e9b8748970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tiresScreechingAudioSource: {fileID: 6092175667191593935}
+  _engineAudioSource: {fileID: 6092175666790523821}
+  _carHitAudioSource: {fileID: 6092175666743013686}
 --- !u!1 &6115639298196477550
 GameObject:
   m_ObjectHideFlags: 0
